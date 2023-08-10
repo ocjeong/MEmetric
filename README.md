@@ -103,10 +103,9 @@ This class filters out 1-letter keywords from the result.
 
 ## Execution
 
-Code block below shows example bash commands for compiling and running the program 
+Code block below shows example bash commands for compiling and running the program.
 
-'''bash
-
+```bash
 javac -d ./bin/ -cp ./bin/ -sourcepath ./src/ ./src/paperJavanise/*
 javac -d ./bin/ -cp ./bin/ -sourcepath ./src/ ./src/meMatchMap/*
 javac -d ./bin/ -cp ./bin/ -sourcepath ./src/ ./src/matchedKeywordFilter/*
@@ -166,5 +165,4 @@ java -Xmx32G -cp ./bin/ meMatchMap.ExportReadableResult \
          "./data/matchResult/2307040330_KO.filtrant3Result" \
          './data/serializedPaper/2307040330.paperIdreadable' \
          "./data/matchResult/2307040330_KO.keyword2paperID" \
-
-'''
+```
